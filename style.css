@@ -1,0 +1,82 @@
+body {
+	background: url(https://images.unsplash.com/photo-1509228468518-180dd4864904?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#box {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	align-content: center;
+	grid-gap: 10px;
+	grid-row-gap: 10px;
+	
+}
+
+#boxContent, #boxContent2, #boxContent3, #boxContent4 {
+	border: none;
+	border-radius: 20px;
+	box-shadow: 10px 5px 5px grey;
+	background: linear-gradient(to right, rgb(62, 81, 62), rgb(52, 183, 60));
+}
+
+#boxContent:hover {
+	background: grey;
+}
+
+#boxContent2:hover {
+	background: yellow;
+}
+
+#boxContent3:hover {
+	background: red;
+}
+
+#boxContent4:hover {
+	background: cyan;
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+
+}
+
+
+
+p, .container {
+	display: flex;
+	justify-content: center;
+}
+
+p {
+	color: blue;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+p:hover {
+	color: red;
+}
+
+span {
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+#txtn1, #txtn2, #txtn3, #txtn4, #txtn5, #txtn6, #txtn7, #txtn8 {
+	text-align: center;
+	width: 80px;
+	margin-left: 10px;
+	border-radius: 20px;
+	border: 1px solid grey;
+	box-shadow: 15px 15px 20px 0px rgba(89,78,89,0.35);
+}
+
+#sum, #sub, #div, #mult {
+	border-radius: 20px;
+	margin-left: 10px;
+}
